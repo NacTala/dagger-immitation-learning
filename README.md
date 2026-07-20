@@ -1,12 +1,5 @@
-# FetchRer.py`: `--expert`, `--expert-model-path`, `--iterations`, `--bc-epochs`, `--finetune-epochs`, `--metrics-path`, `--model-path`
-- `scripts/train_sac.py`: `--timesteps`, `--metrics-path`, `--model-dir`, `--eval-episodes`
-- `scripts/plot_metrics.py`: positional CSV paths or directories, plus `--output-dir`
+# FetchReach Imitation Learning and RL
 
-## Notes
-
-- The human expert mode requires an active graphical session.
-- SAC models are saved by Stable-Baselines3 as `.zip` archives.
-ach Imitation Learning and RL
 
 Repository for experiments on `FetchReach-v4` with `gymnasium-robotics`.
 
@@ -101,7 +94,14 @@ python scripts/plot_metrics.py
 ## Useful options
 
 - `scripts/train_bc.py`: `--dataset-path`, `--epochs`, `--metrics-path`, `--model-path`
-- `scripts/train_dagge
+- `scripts/train_dagger.py`: `--expert`, `--expert-model-path`, `--iterations`, `--bc-epochs`, `--finetune-epochs`, `--metrics-path`, `--model-path`
+- `scripts/train_sac.py`: `--timesteps`, `--metrics-path`, `--model-dir`, `--eval-episodes`
+- `scripts/plot_metrics.py`: positional CSV paths or directories, plus `--output-dir`
+
+## Notes
+
+- The human expert mode requires an active graphical session.
+- SAC models are saved by Stable-Baselines3 as `.zip` archives.
 
 ## Academic Context
 
